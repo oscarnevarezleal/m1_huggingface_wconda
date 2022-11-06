@@ -1,0 +1,10 @@
+name: sdm1
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8.10
+  - pip=20.3
+  - pytorch=1.13
+  - numpy=1.22.3
