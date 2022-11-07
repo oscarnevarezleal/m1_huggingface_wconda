@@ -1,10 +1,12 @@
 name: sdm1
 channels:
-  - conda-forge
   - pytorch
   - defaults
 dependencies:
-  - python=3.8.10
-  - pip=20.3
-  - pytorch=1.13
-  - numpy=1.22.3
+  - python=3.8
+  - pip=22.3
+  - pip:
+      - torchaudio==0.13.0
+      - torchvision==0.14.0
+      - transformers==4.24.0
+      - diffusers==0.7.2
